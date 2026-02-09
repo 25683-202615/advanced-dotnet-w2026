@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week04", "Week04", "{6A9EF3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week04_1_Expressions", "Week04_1_Expressions\Week04_1_Expressions.csproj", "{A9418FC9-59B3-4098-9EC9-4FD17E522470}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week04_2_ExpressionVisitors", "Week04_2_ExpressionVisitors\Week04_2_ExpressionVisitors.csproj", "{91F1C2C4-1672-4D97-9380-BDF59C8F24B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{A9418FC9-59B3-4098-9EC9-4FD17E522470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9418FC9-59B3-4098-9EC9-4FD17E522470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9418FC9-59B3-4098-9EC9-4FD17E522470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F1C2C4-1672-4D97-9380-BDF59C8F24B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F1C2C4-1672-4D97-9380-BDF59C8F24B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F1C2C4-1672-4D97-9380-BDF59C8F24B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F1C2C4-1672-4D97-9380-BDF59C8F24B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{69158616-8AF5-4AD5-8104-351681208B00} = {F63CB0A7-59C5-40BA-B694-390A2A74272E}
 		{FFDA053B-B1B4-4CAF-AC29-F341AA0F6D28} = {F63CB0A7-59C5-40BA-B694-390A2A74272E}
 		{A9418FC9-59B3-4098-9EC9-4FD17E522470} = {6A9EF3DB-D7C6-452A-AF7F-AE57BFFC68B7}
+		{91F1C2C4-1672-4D97-9380-BDF59C8F24B3} = {6A9EF3DB-D7C6-452A-AF7F-AE57BFFC68B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BF96322-EAB6-4002-AE11-B11D37F5DCE1}
