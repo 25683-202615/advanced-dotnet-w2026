@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week06_1_AsyncProgrammingMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week06_2_AsyncDatabaseAccess", "Week06_2_AsyncDatabaseAccess\Week06_2_AsyncDatabaseAccess.csproj", "{97D6FED8-EA2B-4E28-B171-E3489F9C44B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week07", "Week07", "{AE959913-4CB3-406E-ABA0-5E5B8D0ECD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week07_1_HttpListener", "Week07_1_HttpListener\Week07_1_HttpListener.csproj", "{AFB0D6B9-A09C-425A-9D28-D474277F28D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,10 @@ Global
 		{97D6FED8-EA2B-4E28-B171-E3489F9C44B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D6FED8-EA2B-4E28-B171-E3489F9C44B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D6FED8-EA2B-4E28-B171-E3489F9C44B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB0D6B9-A09C-425A-9D28-D474277F28D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB0D6B9-A09C-425A-9D28-D474277F28D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB0D6B9-A09C-425A-9D28-D474277F28D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB0D6B9-A09C-425A-9D28-D474277F28D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +146,7 @@ Global
 		{6F360204-F506-4380-BC5C-0D4BCA7B6EC1} = {A7944AA3-D195-4A5B-A842-9E329309D70B}
 		{47370737-027D-4AE7-B265-DEA447598955} = {2D6D5E43-EB27-48AF-A2F5-303A0FD0A84E}
 		{97D6FED8-EA2B-4E28-B171-E3489F9C44B2} = {2D6D5E43-EB27-48AF-A2F5-303A0FD0A84E}
+		{AFB0D6B9-A09C-425A-9D28-D474277F28D7} = {AE959913-4CB3-406E-ABA0-5E5B8D0ECD51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BF96322-EAB6-4002-AE11-B11D37F5DCE1}
