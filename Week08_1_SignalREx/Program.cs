@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using SignalRChat.Hubs;
+using Week08_1_SignalREx.Models;
 
 namespace Week08_1_SignalREx
 {
@@ -12,6 +14,9 @@ namespace Week08_1_SignalREx
             builder.Services.AddRazorPages();
             
             builder.Services.AddSignalR();
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbContext")));
 
             var app = builder.Build();
 
